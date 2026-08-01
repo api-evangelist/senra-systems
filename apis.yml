@@ -1,8 +1,29 @@
 aid: senra-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/senra-systems.png
 name: Senra Systems
-description: Senra Systems is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Senra Systems is an aerospace wire harness manufacturer based in Redondo Beach,
+  California, that unites design, data, and production under one roof. The company
+  builds complex electrical wire harnesses for aerospace and defense programs,
+  spanning wire harness design and engineering support, prototype through
+  full-rate production, component selection and supply chain optimization, and
+  precision automation in a 15,000 square foot smart-manufacturing facility.
+  Senra positions itself as delivering harnesses at roughly four times the speed
+  of traditional vendors while maintaining aerospace-grade quality and
+  certifications. Senra Systems is backed by Sequoia Capital, Andreessen
+  Horowitz, Founders Fund, 8VC, and General Catalyst. The company does not
+  currently publish a public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/senra-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Aerospace
+- Manufacturing
+- Wire Harnesses
+- Defense
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/senra-systems-domain-security.yml
+- type: Website
+  url: https://www.senrasystems.us/
+- type: Support
+  url: https://www.senrasystems.us/contact
+- type: TermsOfService
+  url: https://www.senrasystems.us/customer-terms
+- type: PrivacyPolicy
+  url: https://www.senrasystems.us/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
